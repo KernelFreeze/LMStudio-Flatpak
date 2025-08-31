@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=LM Studio
+Comment=Run LLM models on your computer
+Exec=lm-studio
+Terminal=false
+Type=Application
+Icon=ai.lmstudio.LMStudio
+StartupWMClass=lm-studio
+Categories=Game;

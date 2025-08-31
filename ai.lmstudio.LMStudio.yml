@@ -1,0 +1,64 @@
+app-id: ai.lmstudio.LMStudio
+runtime: org.freedesktop.Platform
+runtime-version: '24.08'
+sdk: org.freedesktop.Sdk
+base: org.electronjs.Electron2.BaseApp
+base-version: '24.08'
+command: lm-studio
+separate-locales: false
+finish-args:
+  - --persist=.lmstudio
+  - --persist=.lmstudio-home-pointer
+  - --share=network
+  - --share=ipc
+  - --device=dri
+  - --socket=x11
+  - --socket=wayland
+  - --socket=pulseaudio
+  - --talk-name=org.kde.StatusNotifierWatcher
+modules:
+  - name: unappimage
+    buildsystem: simple
+    build-commands:
+      - make -C squashfs-tools install INSTALL_DIR=/app/bin
+    sources:
+      - type: git
+        url: https://github.com/refi64/unappimage
+        commit: d7f86f2a0d7ec3a69211125207d5f127386b849a
+
+  - name: lmstudio
+    buildsystem: simple
+    cleanup:
+      - squashfs-root
+    sources:
+      - type: extra-data
+        url: https://installers.lmstudio.ai/linux/x64/0.3.24-6/LM-Studio-0.3.24-6-x64.AppImage
+        size: 994429446
+        sha256: 4e37eb34fafcc5150e991471dab2c9121dc3fe457738e7ea8114d5b2d39de801
+        filename: lm-studio.appimage
+        x-checker-data:
+          type: electron-updater
+
+      - type: script
+        dest-filename: lm-studio
+        commands:
+          - exec zypak-wrapper /app/extra/bin/lm-studio --no-sandbox "$0"
+
+      - type: file
+        path: ai.lmstudio.LMStudio.appdata.xml
+
+      - type: file
+        path: ai.lmstudio.LMStudio.desktop
+
+      - type: file
+        path: apply_extra.sh
+
+      - type: file
+        path: icons/ai.lmstudio.LMStudio.png
+
+    build-commands:
+      - install -D ./apply_extra.sh "${FLATPAK_DEST}/bin/apply_extra"
+      - install lm-studio "${FLATPAK_DEST}/bin/"
+      - install -Dm644 ai.lmstudio.LMStudio.desktop "${FLATPAK_DEST}/share/applications/${FLATPAK_ID}.desktop"
+      - install -Dm644 ai.lmstudio.LMStudio.appdata.xml "${FLATPAK_DEST}/share/metainfo/${FLATPAK_ID}.appdata.xml"
+      - install -Dm644 -t ${FLATPAK_DEST}/share/icons/hicolor/512x512/apps ai.lmstudio.LMStudio.png

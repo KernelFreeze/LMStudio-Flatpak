@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop">
+	<id>ai.lmstudio.LMStudio</id>
+	<name>LM Studio</name>
+	<summary>Run LLM models on your computer</summary>
+
+	<description>
+		<p>
+			LM Studio is a desktop application that allows users to download, run, and manage large
+			language models (LLMs) locally on their computers. It supports a variety of open-source
+			models, including those from gpt-oss, Llama, Gemma, Qwen, and DeepSeek.
+		</p>
+	</description>
+
+	<categories>
+		<category>Office</category>
+	</categories>
+
+	<url type="homepage">https://lmstudio.ai</url>
+	<url type="help">https://lmstudio.ai/docs/app</url>
+
+	<launchable type="desktop-id">ai.lmstudio.LMStudio.desktop</launchable>
+
+	<content_rating type="oars-1.1">
+		<content_attribute id="social-info">moderate</content_attribute>
+	</content_rating>
+
+	<releases>
+		<release version="0.3.24" date="2025-08-28">
+			<url>https://lmstudio.ai/blog/lmstudio-v0.3.24</url>
+			<description>
+				<p>LM Studio 0.3.24 is now available as a stable release. This version introduces
+					support for ByteDance/Seed-OSS, improved markdown tables and code blocks
+					(including a sticky copy code button), and bug fixes.</p>
+				<ul>
+					<li>Fix a bug where markdown blocks could overflow beyond the chat screen</li>
+					<li>Fixed an issue with Seed-OSS where LM Studio did not parse tool calls for
+						certain prompt templates</li>
+				</ul>
+			</description>
+		</release>
+	</releases>
+
+	<metadata_license>CC0-1.0</metadata_license>
+	<project_license>LicenseRef-proprietary</project_license>
+
+	<agreement type="eula" version_id="2025.07.01">
+		<agreement_section id="0">
+			<name>General Information</name>
+			<description>
+				<p>
+					This page contains the Terms of Use for the LM Studio Desktop App. For the
+					Privacy Policy, please refer to the LM Studio Privacy Policy. Please read these
+					Terms and Conditions ("Terms") carefully as they govern your use of the Software
+					and Services.
+				</p>
+			</description>
+		</agreement_section>
+		<agreement_section id="1">
+			<name>Terms of Service</name>
+			<description>
+				<p>
+					These Terms constitute an agreement between Element Labs, Inc. ("Element Labs",
+					"Company", "we", "us") and the person or entity that downloads or uses the
+					Software and uses the Services ("You", "Your", "User", "Customer"). If the
+					person downloading or using the Software or Services is an employee, agent or
+					contractor of a corporate entity and using the Software or Services within the
+					scope of their employment, agency or primarily for the benefit of the corporate
+					entity, the Terms are between the corporate entity and Element Labs -- and the
+					corporate entity is the Customer.
+				</p>
+				<p>
+					You represent and warrant that: (i) the person agreeing to these Terms is
+					authorized to enter into these Terms on behalf of Customer and (ii) these Terms
+					are binding on Customer.
+				</p>
+				<p>
+					If You does not agree to these Terms, then You must not download or use the
+					Software or Services.
+				</p>
+			</description>
+		</agreement_section>
+		<agreement_section id="2">
+			<name>Definitions</name>
+			<description>
+				<p>
+					"Certified System Requirements" means the operating systems and other equipment
+					on which the Software is designed to work in accordance with the Documentation
+					as such operating systems and equipment are specified at
+					https://lmstudio.ai/docs/system-requirements which may be amended by Element
+					Labs from time to time upon notice.
+				</p>
+				<p>
+					"Software" means the software made available by Element Labs to You (e.g., via
+					download) where these terms are identified as the governing terms, and any
+					modified, updated or enhanced versions of such programs or modules that Element
+					Labs makes available to You.
+				</p>
+				<p>
+					"Services" mean the support services, including responses to community forums,
+					and any other services provided by Element Labs pursuant to these Terms.
+				</p>
+				<p>
+					"Intellectual Property Rights" means all copyrights, trademarks, service marks,
+					trade secrets, patents, patent applications, moral rights, contract rights and
+					other proprietary rights.
+				</p>
+				<p>
+					"Content" means the data or content uploaded into the Software or otherwise used
+					by You in connection with the Software.
+				</p>
+				<p>
+					"Documentation" means any published instructions and user manuals provided to
+					You along with the Software. The Certified System Requirements are a subset of
+					the Documentation.
+				</p>
+				<p>
+					"Confidential Information" means the Software and all written or oral
+					information, disclosed by Element Labs related to the business, products,
+					services or operations of Element Labs that by the nature of the information or
+					the circumstances surrounding disclosure ought reasonably to be treated as
+					confidential. Confidential Information will not include information that: (a)
+					was already known without restriction to You at the time of disclosure; (b) was
+					disclosed to You by a third party who had the right to make such disclosure
+					without any confidentiality restrictions; (c) is, or through no fault of Yours
+					has become, generally available to the public or (d) was independently developed
+					by You without access to, or use of, the Disclosing Party’s Confidential
+					Information.
+				</p>
+			</description>
+		</agreement_section>
+		<agreement_section id="3">
+			<name>License Grant and Other Rights</name>
+			<description>
+				<p>
+					<strong>License Grant:</strong> Subject to the terms and conditions of these
+					Terms, Element Labs grants to You a non-exclusive, non-transferable, license to
+					use the Software solely for Your personal and / or internal business purposes
+					and solely in accordance with the Documentation. </p>
+				<p>
+					<strong>Restrictions On Use:</strong> You acknowledge that the Software and its
+					structure, organization, and source code constitute valuable trade secrets and
+					Confidential information of Element Labs and its suppliers. Except as expressly
+					permitted by these Terms, You agree that You will not permit any third party to,
+					and You will not itself: (a) modify, adapt, alter, translate, or create
+					derivative works from the Software or the Documentation; (b) integrate the
+					Software with other software other than through Element Labs published
+					interfaces made available with the Software; (c) use any open source products
+					with the Software in a manner that imposes, or could impose, a requirement or
+					condition that the Software or any part thereof: (i) be disclosed or distributed
+					in source code for; (ii) be licensed for the purpose of making modifications or
+					derivative works or (iii) be redistributable at no charge; (d) sublicense,
+					distribute, sell, use for service bureau use, as an application service
+					provider, or a software-as-a-service, lease, rent, loan, or otherwise transfer
+					the Software or the Documentation to any third party; (e) reverse engineer,
+					decompile, disassemble, or otherwise attempt to derive the source code for the
+					Software, except and only to the extent that such activity is expressly
+					permitted by applicable law notwithstanding this limitation; (f) remove, alter,
+					cover or obfuscate any copyright notices or other proprietary rights notices
+					included in the Software; or (g) otherwise use or copy the Software except as
+					expressly permitted hereunder. You will notify Element Labs of any unauthorized
+					use or disclosure of the Software or any breach of this Section. </p>
+				<p>
+					<strong>Content:</strong> You are solely responsible for any and all obligations
+					with respect to the Content including its accuracy, quality, legality and
+					appropriateness and that it complies with Element Labs’s Authorized Use Policy,
+					as it may be updated from time-to-time. In the event that You make any Content
+					available to Element Labs, You will obtain all third party licenses, consents
+					and permissions needed for Element Labs to use the Content to provide the
+					Services. For the avoidance of doubt, Element Labs reserves the right, but does
+					not undertake the responsibility, to investigate any breach of the Authorized
+					Use Policy or a breach of this Section. </p>
+				<p>
+					<strong>Installation:</strong> You are responsible for installing the Software
+					in compliance with the Certified System Requirements as permitted under these
+					Terms. </p>
+				<p>
+					<strong>Feedback:</strong> Element Labs in its sole discretion, may utilize, all
+					comments and suggestions, whether written or oral, furnished by You to Element
+					Labs in connection with its access to and use of the Software, Services and
+					Documentation (all reports, comments and suggestions provided by You hereunder
+					constitute, collectively, the "Feedback"). You hereby grant Element Labs a
+					worldwide, non-exclusive, irrevocable, perpetual, royalty-free right and license
+					to incorporate the Feedback into Element Labs products and services. </p>
+				<p>
+					<strong>Proprietary Rights:</strong> As between You and Element Labs, You own
+					all rights, title and interest in the Content and all rights not expressly
+					granted to Element Labs in these Terms in the Content are reserved to You. The
+					Software and Documentation, and all worldwide Intellectual Property Rights
+					therein, are the exclusive property of Element Labs and its suppliers. All
+					rights in and to the Software not expressly granted to You in these Terms are
+					reserved by Element Labs and its suppliers. You will not remove, alter, or
+					obscure any proprietary notices (including copyright notices) of Element Labs or
+					its suppliers on the Software or the Documentation. </p>
+			</description>
+		</agreement_section>
+		<agreement_section id="4">
+			<name>Disclaimers</name>
+			<description>
+				<p>
+					<strong>General Disclaimers:</strong> THE SOFTWARE AND SERVICES ARE MADE
+					AVAILABLE BY ELEMENT LABS "AS IS", "WITH ALL FAULTS" AND WITHOUT WARRANTY OF ANY
+					KIND, INCLUDING THAT THERE ARE NO EXPRESS, IMPLIED OR STATUTORY WARRANTIES,
+					INCLUDING ANY WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE,
+					TITLE, AND NON-INFRINGEMENT OF THIRD PARTY RIGHTS. ELEMENT LABS DOES NOT WARRANT
+					THAT THE SOFTWARE WILL MEET YOUR REQUIREMENTS OR THAT THE SOFTWARE WILL WORK
+					UNINTERRUPTED. </p>
+				<p>
+					<strong>Specific Disclaimers:</strong> (A) THE SOFTWARE IS DESIGNED TO WORK WITH
+					THIRD PARTY PRODUCTS ("THIRD PARTY PRODUCTS") INCLUDING THIRD PARTY ARTIFICIAL
+					INTELLIGENCE MODELS ("THIRD PARTY AI MODELS", WHICH ARE A SUBSET OF THIRD PARTY
+					PRODUCTS). ELEMENT LABS MAY FACILITATE YOUR ABILITY TO DOWNLOAD AND INTEGRATE
+					THE THIRD PARTY PRODUCTS WITH THE SOFTWARE WITH THE UNDERSTANDING THAT SUCH
+					THIRD PARTY PRODUCTS ARE MADE AVAILABLE TO YOU PURSUANT TO A LICENSE AGREEMENT
+					BETWEEN YOU AND THE THIRD PARTY PROVIDER OF SUCH THIRD PARTY PRODUCTS (THE
+					"CUSTOMER – THIRD PARTY PROVIDER AGREEMENT"). YOU WILL UNDERTAKE ALL MEASURES
+					NECESSARY TO ENSURE THAT ITS USE OF THE THIRD PARTY PRODUCTS IN CONNECTION WITH
+					THE SOFTWARE AND SERVICES COMPLIES IN ALL RESPECTS WITH APPLICABLE LAW, THE
+					CUSTOMER – THIRD PARTY PROVIDER AGREEMENT, AND ANY OTHER CONTRACTUAL OR LEGALLY
+					BINDING OBLIGATIONS IN CONNECTION WITH THE THIRD PARTY PRODUCTS, INCLUDING THIRD
+					PARTY LICENSES FOR THE USE OF FREE AND OPEN SOURCE SOFTWARE. IN NO EVENT IS
+					ELEMENT LABS LIABLE TO YOU FOR ANY FAILURE OF THE THIRD PARTY PRODUCTS OR ANY
+					DAMAGES RESULTING IN ANY WAY FROM THE USE OF SUCH THIRD PARTY PRODUCTS. ANY,
+					RIGHTS OR REMEDIES AVAILABLE TO YOU ASSOCIATED WITH THE THIRD PARTY PRODUCTS IS
+					GOVERNED ENTIRELY BY THE CUSTOMER – THIRD PARTY LICENSOR AGREEMENT. </p>
+			</description>
+		</agreement_section>
+		<agreement_section id="5">
+			<name>Export Controls and Sanctions</name>
+			<description>
+				<p>
+					The Software maybe be subject to trade control laws, including the export
+					control and economic sanctions laws of the United States, including but not
+					limited to the Export Administration Regulations maintained by the U.S.
+					Department of Commerce, trade and economic sanctions maintained by the U.S.
+					Treasury Department's Office of Foreign Assets Control ("OFAC"), the
+					International Traffic in Arms Regulations maintained by the U.S. Department of
+					State (collectively, "Trade Control Laws"). You represents and warrants that You
+					are (a) not located in, organized under the laws of, or ordinarily resident in
+					any country or territory subject to territorial sanctions ("Sanctioned
+					Country"), nor owned by or acting on behalf of a Government subject to
+					asset-blocking sanctions or any person or entity organized, located or
+					ordinarily resident in a Sanctioned Country; and (b) not a person identified on,
+					or more than 50% owned or controlled, directly or indirectly, by or acting on
+					behalf or, at the direction of, any entity identified on applicable government
+					restricted party lists, such as the Specially Designated Nationals List
+					maintained by OFAC. You further agree to comply with all applicable Trade
+					Control Laws in its use of the Software. Specifically, You agree not to,
+					directly or indirectly, use, sell, supply, export, reexport, transfer, divert,
+					release, or otherwise dispose of any products, software, or technology
+					(including products derived from or based on such technology) received from
+					Element Labs to any destination, entity, or person or for any end use prohibited
+					by applicable Trade Controls Laws.
+				</p>
+			</description>
+		</agreement_section>
+		<agreement_section id="6">
+			<name>Indemnification</name>
+			<description>
+				<p>
+					You will indemnify, defend and hold harmless Element Labs, its directors,
+					officers, employees and representatives from and against any and all damages,
+					losses, and expenses of any kind (including reasonable attorneys' fees and
+					costs) arising out of or related to: (a) Your breach of any of these Terms.
+					Including any representation or warranty; (b) any Content; (3) any activity in
+					which You engage on or through the use of the Software or Services and (d) Your
+					violation of any law or the rights of a third party.
+				</p>
+			</description>
+		</agreement_section>
+		<agreement_section id="7">
+			<name>Disclaimers and limitations on Remedies</name>
+			<description>
+				<p>
+					YOU AGREES THAT ITS SOLE AND EXCLUSIVE REMEDY FOR ANY PROBLEMS OR
+					DISSATISFACTION WITH THE SOFTWARE AND SERVICES IS TO UNINSTALL THE SOFTWARE AND
+					TO STOP USING THE SERVICES. TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW,
+					IN NO EVENT WILL ELEMENT LABS, ITS OFFICERS, SHAREHOLDERS, EMPLOYEES, AGENTS,
+					DIRECTORS, SUBSIDIARIES, AFFILIATES, SUCCESSORS, ASSIGNS, SUPPLIERS, OR
+					LICENSORS BE LIABLE FOR: (A) ANY INDIRECT, SPECIAL, INCIDENTAL, PUNITIVE,
+					EXEMPLARY, OR CONSEQUENTIAL DAMAGES; (B) ANY LOSS OF USE, DATA, BUSINESS, OR
+					PROFITS (WHETHER DIRECT OR INDIRECT), IN ALL CASES ARISING OUT OF THE USE OF OR
+					INABILITY TO USE THE SOFTWARE, SERVICES, THIRD PARTY PRODUCTS, THIRD PARTY AI
+					MODELS, OR CUSTOMER’S OWN SOFTWARE, HARDWARE OR OPERATIONS, REGARDLESS OF LEGAL
+					THEORY, WITHOUT REGARD TO WHETHER ELEMENT LABS HAS BEEN WARNED OF THE
+					POSSIBILITY OF THOSE DAMAGES, AND EVEN IF A REMEDY FAILS OF ITS ESSENTIAL
+					PURPOSE; OR (C) AGGREGATE LIABILITY FOR ALL CLAIMS RELATING TO THE SOFTWARE OR
+					SERVICES IS $50.00. For clarification, these Terms do not limit Element Labs’s
+					liability for fraud, fraudulent misrepresentation, death or personal injury to
+					the extent that applicable law would prohibit such a limitation.
+				</p>
+			</description>
+		</agreement_section>
+		<agreement_section id="8">
+			<name>Confidentiality</name>
+			<description>
+				<p>
+					<strong>Element Labs Privacy Policy:</strong> Your use of the Software and
+					Services is subject to the Element Labs Software Privacy Policy
+					https://lmstudio.ai/privacy </p>
+				<p>
+					<strong>Protection of Confidential Information:</strong> You will only use
+					Confidential Information for the purpose of obtaining the authorized benefits of
+					the Software and Services and will disclose the Confidential Information only to
+					the employees or contractors of Yours who have a need to know such Confidential
+					Information for such purposes (each a "Representative") and who are under an
+					obligation of confidentiality no less restrictive than Your obligations
+					hereunder. You will protect the Confidential Information from unauthorized use,
+					access, or disclosure in the same manner as You protect your own confidential or
+					proprietary information of a similar nature and with no less than reasonable
+					care. </p>
+				<p>
+					<strong>Return of Confidential Information:</strong> Upon the expiration or
+					termination of the Terms, You will return to Element Labs or destroy all
+					Confidential Information in Your possession or control and permanently erase all
+					electronic copies of such Confidential Information promptly upon Element Labs’s
+					request. </p>
+			</description>
+		</agreement_section>
+		<agreement_section id="9">
+			<name>Term and Termination</name>
+			<description>
+				<p>
+					<strong>Term:</strong> The term of the Terms will begin on the Effective Date
+					and will continue until terminated (the "Term"). You may terminate by providing
+					written notice pursuant to Section 9.3. Element Labs can provided terminate the
+					Agreement at its discretion upon no less than 10 days-notice via any reasonable
+					means, including by posting a notice on the website, application or other
+					location on which the Software is made available. </p>
+				<p>
+					<strong>Effects of Termination:</strong> Upon termination of the Terms for any
+					reason: (a) all license rights granted in the Terms will immediately cease to
+					exist and (b) You must promptly discontinue all use of the Software, erase all
+					copies of the Software from Your systems, and return to Element Labs or destroy
+					all copies of the Software and Documentation on tangible media in Your
+					possession. </p>
+				<p>
+					<strong>Survival:</strong> The following provisions of these Terms will survive
+					termination: the defined terms, Sections 2.5, 2.6 and 3 through 9. </p>
+			</description>
+		</agreement_section>
+		<agreement_section id="10">
+			<name>General</name>
+			<description>
+				<p>
+					<strong>Assignment:</strong> These Terms cannot be assigned by You without the
+					prior written consent of Element Labs and any assignment in breach of this
+					provisions is voided Element Labs may assign these Terms at its discretion
+					without notice. </p>
+				<p>
+					<strong>Notices:</strong> All notices or demands required hereunder will be sent
+					through email by email addresses provided or be delivered by certified or
+					registered mail to; in the case of Element Labs, 1 Dock 72 Way, 7th Floor,
+					Brooklyn, NY 11205 or in the case of Yours via any means available to Element
+					Labs. </p>
+				<p>
+					<strong>Governing Law and Venue:</strong> These Terms and all Statements of Work
+					will be governed by and interpreted in accordance with the laws of the State of
+					New York, without reference to its choice of laws rules. Any action or
+					proceeding arising from or relating to these Terms will be brought in a state
+					court in New York County, or federal court in New York, New York, and each party
+					irrevocably submits to the jurisdiction and venue of any such court in any such
+					action or proceeding. </p>
+				<p>
+					<strong>Remedies:</strong> You acknowledge that the Software contains valuable
+					trade secrets and proprietary information of Element Labs, that any actual or
+					threatened breach of Section 2 will constitute immediate, irreparable harm to
+					Element Labs for which monetary damages would be an inadequate remedy, that
+					injunctive relief is an appropriate remedy for such breach, and that if granted,
+					You agree to waive any bond that would otherwise be required. </p>
+				<p>
+					<strong>Waivers:</strong> All waivers must be in writing. Any waiver or failure
+					to enforce any provision of the Terms on one occasion will not be deemed a
+					waiver of any other provision or of such provision on any other occasion. </p>
+				<p>
+					<strong>Severability:</strong> If any provision of the Terms are unenforceable,
+					such provision will be changed and interpreted to accomplish the objectives of
+					such provision to the greatest extent possible under applicable law and the
+					remaining provisions will continue in full force and effect. </p>
+				<p>
+					<strong>Entire Agreement:</strong> These Terms and the exhibits hereto,
+					constitute the entire agreement between the parties regarding the subject hereof
+					and supersedes all prior or contemporaneous agreements, understandings, and
+					communication, whether written or oral. These Terms will not be modified except
+					by a subsequently dated written amendment signed on behalf of Element Labs and
+					You by their duly authorized representatives. </p>
+			</description>
+		</agreement_section>
+	</agreement>
+
+	<developer id="ai.lmstudio">
+		<name>Element Labs, Inc.</name>
+	</developer>
+
+	<screenshots>
+		<screenshot type="default">
+			<image>
+				https://lmstudio.ai/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhero-new.f48a84ba.webp&amp;w=3840&amp;q=75
+			</image>
+		</screenshot>
+	</screenshots>
+
+	<content_rating type="oars-1.1">
+		<content_attribute id="social-info">moderate</content_attribute>
+	</content_rating>
+</component>

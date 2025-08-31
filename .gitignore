@@ -1,0 +1,4 @@
+.flatpak-builder/
+ai.lmstudio.LMStudio/
+builddir/
+repo/
